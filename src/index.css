@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.errorMessage {
+  color: firebrick;
+  background-color: #ffe6e6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid firebrick;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.loader {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #dfe4ea;
+  background: #2c3e50;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.link:hover {
+  background: #dfe4ea;
+  color: #2c3e50;
+}
